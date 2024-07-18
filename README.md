@@ -1,3 +1,4 @@
+# Interactive Sudoku Solver
 This is an interactive sudoku solver I made with pygame.
 Users can enter the numbers and solve the sudoku puzzle.
 
