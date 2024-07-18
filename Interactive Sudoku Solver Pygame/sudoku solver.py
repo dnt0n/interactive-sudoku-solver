@@ -34,9 +34,9 @@ FPS = 30
 THICK_LINE = 4
 THIN_LINE = 2
 
-# main font
-light_font_dir = "C:/Users/danto/OneDrive/Desktop/Coding Projects/Interactive Sudoku Solver Pygame/fonts/Roboto-Light.ttf"
-bold_font_dir = "C:/Users/danto/OneDrive/Desktop/Coding Projects/Interactive Sudoku Solver Pygame/fonts/Roboto-Bold.ttf"
+# main fonts
+light_font_dir = "./fonts/Roboto-Light.ttf"
+bold_font_dir = "./fonts/Roboto-Bold.ttf"
 
 number_font_size = 35
 roboto_number = pygame.font.Font(light_font_dir, number_font_size)
