@@ -103,7 +103,7 @@ def display_message(msg):
     screen.blit(msg_surf, msg_rect)
 
 def get_rows(board):
-    return board.copy()
+    return [row.copy() for row in board]
 
 def get_cols(board):
     return [[board[r][c] for r in range(9)] for c in range(9)]
