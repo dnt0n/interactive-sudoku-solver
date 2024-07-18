@@ -295,7 +295,7 @@ def main():
         display_message(curr_message)
         if not solved:
             display_board(board, curr_selected_pos)
-        else:
+        else: # in solved state, the additional solution numbers will be colored green
             display_board(board, curr_selected_pos, old_board)
         pygame.display.update()
 
